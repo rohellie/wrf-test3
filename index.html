@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>腾讯云项目</title>
+		<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		#w1{
+			background-color: #2B303B;
+			padding-left: 100px;
+			height: 40px;
+		}
+		.w2{
+			color: white;
+			display: block;
+			position:absolute;
+			font-size: 12px;
+			left: 750px;
+			top: 10px;
+		}
+		.w2:hover{
+			cursor: pointer;
+		}
+		.lo{
+			width: 70px;
+			top: 10px;
+			position:absolute;
+		}
+		.ye{
+			width: 100%;
+			height: 535px;
+			position: absolute;
+			z-index: 1;
+			}
+		
+		#ye>ul{
+			width: 200px;
+			left: 100px;
+			top: 40px;
+			z-index: 2;
+			padding-top: 40px;
+			padding-bottom: 38px;
+			background-color: #1B2A3F;
+			display: block;
+			position: absolute;
+		}
+		#ye>ul>li{
+			padding: 10px;
+			font-size: 15px;
+			display: block;
+			color: #FFFFFF;
+		}
+		#ye>ul>li:hover{
+			cursor: pointer;
+		}
+	
+		.p1{
+			top: 600px;
+			left: 700px;
+			font-size: 20px;
+			position: absolute;
+		}
+		.hao{
+			top: 640px;
+			left: 735px;
+			font-size: 12px;
+			position: absolute;
+		}
+		#p2{
+			width: 1200px;
+			height: 500px;
+			position: absolute;
+			top: 690px;
+			left: 150px;
+			border: 1px solid gainsboro;
+		}
+		#p2>span{
+			font-size: 20px;
+			padding: 40px 40px;
+			display: block;
+		}
+		#p2>hr{
+			width: 75px;
+			left: 42px;
+			top: 72px;
+			color: #ebe9e9;
+			position: absolute;
+		}
+		#p2>p{
+			width: 400px;
+			display: block;
+			font-size: 13px;
+			padding-left: 40px;
+			line-height: 27px;
+		}
+		#p2>a{
+			width: 100px;
+			height: 30px;
+			font-size: 13px;
+			padding-left: 40px;
+			padding-top: 10px;
+			padding-left: 50px;
+			margin-left: 40px;
+			margin-top: 30px;
+			display: block;
+			border: 2px solid #ff9c50;
+		}
+		#p2>img{
+			width: 600px;
+			left: 550px;
+			top: 40px;
+			position: absolute;
+		}
+		
+	
+		#p3{
+			background-color: #2E3033;
+			height: 350px;
+			top: 1200px;
+			left: 0;
+			position: relative;
+			display: block;
+		}
+		
+		#b1>p{
+			padding-left: 150px;
+			padding-top: 40px;
+			color: white;
+			display: block;
+		}
+		#b1>ul{
+			left: 150px;
+			top: 70px;
+			list-style: none;
+			position: absolute;
+			display: block;
+		}
+		#b1>ul>li{
+			font-size: 12px;
+			padding-bottom: 5px;
+			color: white;
+			cursor: pointer;
+		}
+		
+		#b2>p{
+			left: 350px;
+			top: 40px;
+			color: white;
+			position: absolute;
+		}
+	  #b2>ul{
+			left: 350px;
+			top: 70px;
+			display: block;
+			list-style: none;
+			position: absolute;
+		}
+		#b2>ul>li{
+			font-size: 12px;
+			color: white;
+			padding-bottom: 5px;
+			cursor: pointer;
+		}
+		
+		#b3>p{
+			left: 550px;
+			top: 40px;
+			color: white;
+			position: absolute;
+		}
+		#b3>ul{
+			left: 550px;
+			top: 70px;
+			display: block;
+			list-style: none;
+			position: absolute;
+		}
+		#b3>ul>li{
+			font-size: 12px;
+			color: white;
+			padding-bottom: 5px;
+			cursor: pointer;
+		}
+		
+		#b4>p{
+			left: 750px;
+			top: 40px;
+			color: white;
+			position: absolute;
+		}
+		#b4>ul{
+			left: 750px;
+			top: 70px;
+			display: block;
+			list-style: none;
+			position: absolute;
+		}
+		#b4>ul>li{
+			color: white;
+			font-size: 12px;
+			padding-bottom: 5px;
+			cursor: pointer;
+		}
+		
+		#b5>p{
+			left: 950px;
+			top: 40px;
+			color: white;
+			position: absolute;
+		}
+		#b5>ul{
+			left: 950px;
+			top: 70px;
+			display: block;
+			list-style: none;
+			position: absolute;
+		}
+		#b5>ul>li{
+			color: white;
+			font-size: 12px;
+			padding-bottom: 5px;
+			cursor: pointer;
+		}
+		
+		#b6>ul{
+			left: 1150px;
+			top: 40px;
+			display: block;
+			list-style: none;
+			position: absolute;
+		}
+		#b6>ul>li{
+			color: white;
+			font-size: 12px;
+			padding-bottom: 5px;
+		}
+		#b6>p{
+			width: 200px;
+			height: 40px;
+			font-size: 12px;
+			left: 1150px;
+			top: 110px;
+			display: block;
+			position: absolute;
+			color: white;
+			background-color: #00A4FF;
+			padding-left: 80px;
+			box-sizing: border-box;
+			padding-top: 10px;
+			cursor: pointer;
+		}
+		</style>
+	</head>
+	<body>
+	<div id="shang">
+		<div id="w1">
+			<img class="lo" src="./images/logo.png"/>
+			<a class="w2">最新活动&ensp;|&ensp;产品&ensp;|&ensp;解决方案&ensp;|&ensp;定价&ensp;|&ensp;文档&ensp;|&ensp;企业中心&ensp;|&ensp;云市场&ensp;|&ensp;开发者支持&ensp;|&ensp;合作与生态&ensp;|&ensp;客户</a>
+		</div>
+		<div id="ye">
+			<img class="ye" src="./images/banner.png"/>
+			<ul>
+				<li>云服务器&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;></li>
+				<li>轻量应用服务器&emsp;&emsp;&emsp;&emsp;></li>
+				<li>域名注册&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;></li>
+				<li>网站备案&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;></li>
+				<li>对象存储&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;></li>
+				<li>云服务器&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;></li>
+				<li>云硬盘&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;></li>
+				<li>云数据库&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;></li>
+				<li>云数据库&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;></li>
+				<li>批量计算&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;></li>
+				<li>容器服务&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;></li>
+			</ul>
+		</div>
+	</div>
+	
+	
+			<p class="p1">云从业者培训及认证</p>
+			<span class="hao">好好学习，天天向上</span>
+			<div id="p2">
+				<span>在线课程</span>
+				<hr>
+				<p>
+					本课程专为云计算初学者、学生、个人开发者打造，购买云+校园任意套餐可免费观看课程视频本课程专为云计算初学者、学生、个人开发者打造，购买云+校园任意套餐可免费观看课程视频本课程专为云计算初学者、学生、个人开发者打造，购买云+校园任意套餐可免费观看课程视频本课程专为云计算初学者、学生、个人开发者打造，购买云+校园任意套餐可免费观看课程视频本课程专为云计算初学者、学生、个人开发者打造，购买云+校园任意套餐可免费观看课程视频
+				</p>
+				<a>开始学习</a>
+				<img src="./images/right.png"/>
+			</div>
+
+		<div id="p3">
+			<div id="b1">
+				<p>腾讯云计算</p>
+			<ul class="b1">
+				<li>产品</li>
+				<li>云市场</li>
+				<li>客户案例</li>
+				<li>产品发布台</li>
+				<li>网站备案</li>
+				<li>认证信息</li>
+				<li>许可证说明</li>
+				<li>隐私声明</li>
+				<li>关于我们</li>
+			</ul>
+			</div>
+			<div id="b2">
+				<p>解决方案</p>
+			<ul class="b2">
+				<li>视频</li>
+				<li>游戏</li>
+				<li>金融</li>
+				<li>电商</li>
+				<li>网站</li>
+				<li>大数据</li>
+				<li>人脸核身</li>
+				<li>在线教育</li>
+				<li>微信小程序</li>
+				<li>微信小程序音视频</li>
+			</ul>
+			</div>
+			<div id="b3">
+				<p>资源与社区</p>
+			<ul class="b3">
+				<li>免费套餐</li>
+				<li>入门中心</li>
+				<li>定价中心</li>
+				<li>资源中心</li>
+				<li>腾讯云大学</li>
+				<li>云+社区</li>
+				<li>专栏</li>
+				<li>问答</li>
+				<li>沙龙</li>
+			</ul>
+			</div>
+			<div id="b4">
+				<p>合作与生态</p>
+			<ul class="b4">
+				<li>合作伙伴</li>
+				<li>合作伙伴学院</li>
+				<li>推广奖励</li>
+				<li>云+公益</li>
+				<li>云+校园</li>
+				<li>云+创业</li>
+				<li>Techo 开发者大会</li>
+				<li>腾讯数字生态大会</li>
+				<li>云启产业计划</li>
+				<li>腾讯云启创新基地</li>
+			</ul>
+			</div>
+			<div id="b5">
+				<p>管理与支持</p>
+			<ul class="b5">
+				<li>公告</li>
+				<li>控制台</li>
+				<li>续费管理</li>
+				<li>访问管理</li>
+				<li>安全中心</li>
+				<li>举报平台</li>
+				<li>工单管理</li>
+				<li>联系我们</li>
+			</ul>
+			</div>
+			<div id="b6">
+			<ul class="b6">
+				<li>Copyright © 2013 - 2020</li>
+				<li>Tencent Cloud. All Rights Reserved.</li>
+				<li>腾讯云 版权所有</li>
+				
+			</ul>
+			<p>购买咨询</p>
+			</div>
+		</div>
+	</body>
+</html>
